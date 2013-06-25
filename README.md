@@ -8,16 +8,19 @@ Name
 ----
 ...
 
-Why
----
+Why use Revision Control Systems for Open Science?
+--------------------------------------------------
 Git keeps the full history of the documents, is safe, makes it easy to fork
 and modify scientific output. It *was* made for collaboration after all.
 Also, websites like github, bitbucket, and gitorious allow users to post
 "Issues", essentially a sophisticated and transparent form of peer-review.
 
-However, there is currently no easy way to track manuscripts being written
-on github, bitbucket, and other servers. The aim of the project is to
-increase the visibility of open science with distributed revision-control
+Aim of This Project
+-------------------
+There is currently no easy way to track manuscripts being written
+on github, bitbucket, and other servers. 
+
+The aim of the project is to increase the visibility of open science with distributed revision-control
 systems.
 
 How
