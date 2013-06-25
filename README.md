@@ -1,6 +1,10 @@
 drcs-science
 ============
-Ideas on a potential (maybe?) project to build a central website that tracks manucripts being written with distributed revision-control systems (git, mercurial, ...).
+Ideas on a potential project to build a central website that tracks manuscripts being written with distributed revision-control systems (git, mercurial, ...).
+
+Name
+----
+...
 
 Why
 ---
@@ -17,5 +21,10 @@ The system should, at the very least, do the following:
 
 What
 ----
-I'm tempted to go with something safe & fast like Play! (Scala) or Yesod (Haskell). Node.Js is a rational choice but I fear future generations will curse us for writing serious things in JavaScripts.
+Tools:
+* Yesod web framework (Haskell): fast, safe & fun.
+* Open identification system.
+* Goold ol' MySQL (?)
+* 100% open source: the code should be stored on gitorious (more neutral than github).
+* Offer an API.
 
