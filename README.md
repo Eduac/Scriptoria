@@ -25,6 +25,9 @@ distributed revision-control systems.
 
 As a side-effect, we can also propose best practices for the writing of manuscripts using RCS.
 
+Further, this project can initiate and foster collaborative research
+in the scientific community and across disciplines.
+
 How
 ---
 The system should, at the very least, do the following:
