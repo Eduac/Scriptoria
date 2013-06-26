@@ -8,17 +8,20 @@ Name
 ----
 ...
 
-Why
----
+Why use Revision Control Systems for Open Science?
+--------------------------------------------------
 Git keeps the full history of the documents, is safe, makes it easy to fork
 and modify scientific output. It *was* made for collaboration after all.
 Also, websites like github, bitbucket, and gitorious allow users to post
 "Issues", essentially a sophisticated and transparent form of peer-review.
 
-However, there is currently no easy way to track manuscripts being written
-on github, bitbucket, and other servers. The aim of the project is to
-increase the visibility of open science with distributed revision-control
-systems.
+Aim of This Project
+-------------------
+There is currently no easy way to track manuscripts being written
+on github, bitbucket, and other servers.
+
+The aim of the project is to increase the visibility of open science with
+distributed revision-control systems.
 
 How
 ---
@@ -33,7 +36,8 @@ registered, then track it).
 * Use the servers' API to extract basic info on the repo: starting date,
 number of commits, participants, branches, issues, DOI.
 * Offer a strictly RESTful API.
-* Allow the developper to inform on the status of the manuscript: where was it published, etc.
+* Allow the developper to inform on the status of the manuscript: where was
+it published, etc.
 
 What
 ----
@@ -41,5 +45,5 @@ Tools:
 
 * Yesod web framework (Haskell): fast, safe & fun.
 * Open identification system.
-* Good ol' MySQL (?) (pgSQL?)
+* MySQL? pgSQL?
 * 100% open source: the code should be stored on gitorious (more neutral than github).
