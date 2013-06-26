@@ -6,14 +6,14 @@ mercurial, ...).
 
 Name
 ----
-...
+*The Open Scriptorium* ?
 
 Why use Revision Control Systems for Open Science?
 --------------------------------------------------
-Git keeps the full history of the documents, is safe, makes it easy to fork
+RCS keeps the full history of the documents, identify which user is responsible for which change, are safe, makes it easy to fork
 and modify scientific output. It *was* made for collaboration after all.
 Also, websites like github, bitbucket, and gitorious allow users to post
-"Issues", essentially a sophisticated and transparent form of peer-review.
+"Issues", essentially a sophisticated and transparent form of peer-review, that can happen either *during* or *after* the writing of the manuscript.
 
 Aim of This Project
 -------------------
@@ -22,6 +22,8 @@ on github, bitbucket, and other servers.
 
 The aim of the project is to increase the visibility of open science with
 distributed revision-control systems.
+
+As a side-effect, we can also propose best practices for the writing of manuscripts using RCS.
 
 How
 ---
