@@ -1,15 +1,8 @@
-drcs-science
-============
+Scriptoria
+==========
 Ideas on a potential project to build a central website that tracks
 manuscripts being written with distributed revision-control systems (git,
 mercurial, ...).
-
-Name
-----
-Some ideas for the name:
-
-*The Open Scriptorium*
-*Scriptorium*
 
 Why use Revision Control Systems for Open Science?
 --------------------------------------------------
@@ -47,3 +40,4 @@ number of commits, participants, branches, issues, DOI.
 * Offer a strictly RESTful API.
 * Allow the developper to inform on the status of the manuscript: where was
 it published, etc.
+

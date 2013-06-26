@@ -1,5 +1,5 @@
 {-# LANGUAGE PackageImports #-}
-import "scriptorium" Application (getApplicationDev)
+import "Scriptoria" Application (getApplicationDev)
 import Network.Wai.Handler.Warp
     (runSettings, defaultSettings, settingsPort)
 import Control.Concurrent (forkIO)

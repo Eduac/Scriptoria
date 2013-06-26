@@ -1,4 +1,4 @@
-exec: ../dist/build/scriptorium/scriptorium
+exec: ../dist/build/Scriptoria/Scriptoria
 args:
     - production
 host: <<HOST-NOT-SET>>
