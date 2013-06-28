@@ -17,7 +17,7 @@ getHomeR = do
         handlerName = "getHomeR" :: Text
     defaultLayout $ do
         aDomId <- lift newIdent
-        setTitle "Welcome To Yesod!"
+        setTitle "Welcome To Scriptopia"
         $(widgetFile "homepage")
 
 postHomeR :: Handler RepHtml
@@ -30,7 +30,7 @@ postHomeR = do
 
     defaultLayout $ do
         aDomId <- lift newIdent
-        setTitle "Welcome To Yesod!"
+        setTitle "Welcome To Scriptopia!"
         $(widgetFile "homepage")
 
 sampleForm :: Form (FileInfo, Text)
