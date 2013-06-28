@@ -1,24 +1,22 @@
 Scriptoria
 ==========
-The source code for the Scriptoria project, a website to track git and
-mercurial repositories used to write scientific manuscripts.
+The source code for the Scriptoria project, a website to track scientific manuscripts
+written with distributed revision control systems (RCS) like git and mercurial.
 
-Why use Revision Control Systems for Open Science?
---------------------------------------------------
-RCS keeps the full history of the documents, identify which user is
-responsible for which change, are safe, makes it easy to fork and modify
-scientific output. It *was* made for collaboration after all. Also, websites
-like github, bitbucket, and gitorious allow users to post "Issues",
+Distributed revision control systems keep the full history of the documents, identify
+which user is responsible for which change, are safe, and makes it easy to fork and modify
+scientific output. They are modern tools initially designed to allow
+collaboration between several software engineers working on the same code.
+Also, websites like github, bitbucket, and gitorious allow users to post "Issues",
 essentially a sophisticated and transparent form of peer-review, that can
-happen either *during* or *after* the writing of the manuscript.
+happen either *during* or *after* the writing process.
 
 Aim of This Project
 -------------------
-There is currently no easy way to track manuscripts being written
-on github, bitbucket, and other servers.
-
-The aim of the project is to increase the visibility of open science with
-distributed revision-control systems.
+There is currently no easy way to track manuscripts being written on github,
+bitbucket, and other servers. The aim of the project is to increase the visibility of
+open science with distributed revision-control systems by offering a centralized
+database of manuscripts in DRCSs.
 
 As a side-effect, we can also propose best practices for the writing of
 manuscripts using RCS. Furthermore, this project can initiate and foster
@@ -38,7 +36,7 @@ it published, etc.
 
 Tools
 -----
-Scriptoria is written in ]Haskell](http://www.haskell.org/) with the
+Scriptoria is written in [Haskell](http://www.haskell.org/) with the
 [Yesod](http://www.yesodweb.com/) web framework. The code for the entire
 website is available at: https://github.com/PhDP/Scriptoria.
 
