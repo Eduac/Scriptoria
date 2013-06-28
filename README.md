@@ -1,8 +1,7 @@
 Scriptoria
 ==========
-Ideas on a potential project to build a central website that tracks
-manuscripts being written with distributed revision-control systems (git,
-mercurial, ...).
+The source code for the Scriptoria project, a website to track git and
+mercurial repositories used to write scientific manuscripts.
 
 Why use Revision Control Systems for Open Science?
 --------------------------------------------------
@@ -25,10 +24,6 @@ As a side-effect, we can also propose best practices for the writing of
 manuscripts using RCS. Furthermore, this project can initiate and foster
 collaborative research in the scientific community and across disciplines.
 
-How
----
-The system should, at the very least, do the following:
-
 * Allow users to add repositories from several common hosting services: github,
 bitbucket, gitorious. Perhaps even allowing some automatic system based on
 a convention (if the repo starts with "ms_", "article_", ... and the user is
@@ -41,3 +36,12 @@ number of commits, participants, branches, issues, DOI.
 * Allow the developper to inform on the status of the manuscript: where was
 it published, etc.
 
+Tools
+-----
+Scriptoria is written in ]Haskell](http://www.haskell.org/) with the
+[Yesod](http://www.yesodweb.com/) web framework. The code for the entire
+website is available at: https://github.com/PhDP/Scriptoria.
+
+License
+-------
+[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
